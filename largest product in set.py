@@ -1,0 +1,9 @@
+s={10,3,5,16}
+l=list(s)
+l=sorted(l)
+a=l[-1]
+b=l[-2]
+t=set()
+t.add(a)
+t.add(b)
+print(t)
